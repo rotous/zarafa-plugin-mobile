@@ -1,0 +1,24 @@
+#zarafa-mainview > div.zarafa-widgetpanel,
+#zarafa-mainview > div.x-layout-collapsed-east{
+	display: none;
+}
+
+#zarafa-mainpanel-content .x-panel-tbar{
+	display: none;
+}
+
+#zarafa-main-content-mail-preview{
+	display: none;
+}
+
+#zarafa-mainpanel-content,
+#zarafa-mainpanel-content .x-grid3-hd-row td{
+	font-size: 1rem !important;
+	line-height: 120%;
+}
+#zarafa-mainpanel-content .x-grid3-row td, .x-grid3-summary-row td{
+	font-size: 0.8rem;
+	line-height: 120%;
+	height: 2.0rem;
+	vertical-align: middle;
+}

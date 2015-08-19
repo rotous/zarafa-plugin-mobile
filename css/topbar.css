@@ -1,0 +1,86 @@
+@media (max-device-width : 800px ){
+	html{
+		font-size: 2vh;
+	}
+}
+
+@media (min-device-width : 801px ){
+	html{
+		font-size: 16px;
+	}
+}
+
+
+#zarafa-mainview > div:first-child,
+#zarafa-mainmenu{
+	height: 100px !important;
+	height: 4rem !important;
+}
+#zarafa-mainmenu > table{
+	background: #0f70bd !important;
+	height: 4rem !important;
+}
+
+#zarafa-mainmenu > table .x-toolbar-left-row{
+	display: block;
+	position: absolute;
+	left: 50px;
+	top: 15px;
+	left: 1rem;
+	top: 1rem;
+}
+#zarafa-mainmenu > table .x-toolbar-left-row > td{
+	display: list-item;
+	list-style: none;
+}
+#zarafa-mainmenu > table .x-toolbar-left-row > td.x-toolbar-cell > div {
+	display: none;
+}
+#zarafa-mainmenu > table .x-toolbar-left-row > td.x-toolbar-cell > div.zarafa-maintabbar-maintab-active {
+	display: block;
+}
+#zarafa-mainmenu > table .x-toolbar-left-row > td.x-toolbar-cell > div.zarafa-maintabbar-maintab-active button {
+	border: none;
+	font-weight: normal;
+}
+.zarafa-maintab.x-btn-noicon button.x-btn-text{
+	text-shadow: none;
+}
+#zarafa-mainmenu #mainmenu-button-settings{
+	display: none;
+}
+
+#zarafa-mainmenu .x-btn .x-btn-small,
+#zarafa-mainmenu .x-btn-noicon .x-btn-small .x-btn-text{
+	height: auto;
+}
+		
+#zarafa-mainmenu .zarafa-maintab.x-btn-noicon button.x-btn-text{
+	font-size: 64px;
+	font-size: 2.25rem;
+	line-height: 100%;
+}
+
+#zarafa-mainmenu .zarafa-maintabbar-logintext{
+	display: none;
+}
+
+#mainmenu-button-logout{
+	width: 2rem !important;
+	height: 2rem !important;
+	background: url(../images/appbar.door.leave.white.svg) no-repeat center center;
+	background-size: 2rem;
+}
+#mainmenu-button-logout.zarafa-maintabbar .x-btn-over,
+#mainmenu-button-logout .zarafa-maintabbar .x-btn-over.x-btn-click.x-btn-text-icon,
+#mainmenu-button-logout .zarafa-maintabbar .x-btn-over.x-btn-click.x-btn-noicon,
+#mainmenu-button-logout:active,
+#mainmenu-button-logout:hover{
+	background: url(../images/appbar.door.leave.white.svg) no-repeat center center !important;
+}
+#mainmenu-button-logout button{
+	display: none;
+}
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin SYSTEM "manifest.dtd">
+<plugin version="2">
+	<info>
+		<version>0.1</version>
+		<name>mobile</name>
+		<title>Responsive WebApp</title>
+		<author>Ronald Toussaint</author>
+		<authorURL>http://www.github.com/rotous</authorURL>
+		<description>A plugin that optimizes the Zarafa WebApp for mobile devices</description>
+	</info>
+	<!--config>
+		<configfile>config.php</configfile>
+	</config-->
+	<components>
+		<component>
+			<files>
+				<!--server>
+					<serverfile>php/plugin.extbox.php</serverfile>
+				</server-->
+				<client>
+					<!--clientfile load="release">js/extbox.js</clientfile>
+					<clientfile load="debug">js/extbox-debug.js</clientfile>
+					<clientfile load="source">js/ExtBoxPlugin.js</clientfile-->
+					<clientfile load="source">js/MobilePlugin.js</clientfile>
+					<clientfile load="source">js/mods/MailGridColumnModel.js</clientfile>
+				</client>
+			</files>
+		</component>
+	</components>
+</plugin>

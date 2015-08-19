@@ -1,0 +1,26 @@
+#zarafa-mainpanel{
+	padding-bottom: 3.25rem;
+}
+
+#zarafa-maintoolbar{
+	position: fixed;
+	z-index: 1000;
+	height: 3rem !important;
+	left: 0;
+	bottom: 0;
+	top: auto !important;
+	background: #0f70bd url(../images/zarafa_logo-2015.svg) no-repeat right 0.5rem center !important;
+	background-size: 2.5rem !important;
+	padding-top: 0.15rem;
+}
+
+#zarafa-maintoolbar .x-toolbar-left{
+	background: none !important;
+}
+
+#zarafa-maintoolbar .x-toolbar-left .x-toolbar-left-row td{
+	display: none;
+}
+#zarafa-maintoolbar .x-toolbar-left .x-toolbar-left-row td:first-child{
+	display: block;
+}
